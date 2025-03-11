@@ -9,7 +9,21 @@
 	"compatibility_date": "2025-03-10",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"ai": {
+		"binding": "AI"
+	},
+	"browser": {
+		"binding": "MYBROWSER"
+	},
+	"kv_namespaces": [
+		{
+			"binding": "BROWSER_KV_LV_DEMO",
+			"id": "ba580138c28f40959ccb35e760b20a6a",
+			"preview_id": "fd802e18729f44058cc0ef26a70b0efc"
+		}
+	],
+	"compatibility_flags": ["nodejs_compat"],
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
